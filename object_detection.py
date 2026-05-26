@@ -1,9 +1,3 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# SMART DETECTION SYSTEM - MODERN UI VERSION
-# Install:
-# pip install customtkinter ultralytics opencv-python pillow numpy
-# ─────────────────────────────────────────────────────────────────────────────
-
 import customtkinter as ctk
 from PIL import Image, ImageTk
 import cv2
