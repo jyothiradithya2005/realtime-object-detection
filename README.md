@@ -47,31 +47,6 @@ Together, YOLO and OpenCV make the project fast, accurate, and suitable for real
 
 ---
 
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/smart-detection-system.git
-cd smart-detection-system
-```
-
-### Install Dependencies
-
-```bash
-pip install customtkinter ultralytics opencv-python pillow numpy
-```
-
----
-
-## Run the Project
-
-```bash
-python main.py
-```
-
----
-
 ## Project Structure
 
 ```bash
@@ -150,13 +125,54 @@ from the Ultralytics YOLOv8 model family for accurate and fast detection.
 - Alert system
 - Export reports
 - Multi-camera support
+- webpage
+- API integration for object classification
+
+---
+
+## Installation and Setup
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/smart-detection-system.git
+cd smart-detection-system
+```
+
+---
+
+### Step 2: Install Required Libraries
+
+```bash
+pip install customtkinter ultralytics opencv-python pillow numpy
+```
+
+---
+
+### Step 3: Download YOLO Model
+
+Download the YOLOv8 model file:
+
+```bash
+yolov8m.pt
+```
+
+and place it inside the project folder.
+
+---
+
+### Step 4: Run the Project
+
+```bash
+python main.py
+```
 
 ---
 
 ## Author
 
-Sagiraju V. S. Jyothiradithya 
-7013113567 
+Sagiraju V. S. Jyothiradithya  
+Student at KL University
 
 ---
 
